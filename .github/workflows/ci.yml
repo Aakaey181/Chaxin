@@ -18,3 +18,26 @@ jobs:
           test -f docs/product/backlog.md
           test -f docs/architecture/adr/ADR-001-modular-monolith.md
 
+  api-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - name: Run API tests
+        run: mvn -f apps/api/pom.xml test
+
+  web-typecheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Install dependencies
+        run: npm install
+      - name: Typecheck API client and web
+        run: npm run typecheck

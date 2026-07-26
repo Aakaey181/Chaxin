@@ -21,3 +21,25 @@ Report changed files, test results, unresolved risks, and next steps.
 
 Business functionality starts after Week 0 foundation review.
 
+## Week 1 Local Run
+
+Install Java 21, Maven, Node.js, and npm. Then run:
+
+```bash
+npm install
+npm run test:api
+npm run build --workspace @zhuixun/api-client
+npm run dev:api
+```
+
+In another terminal:
+
+```bash
+npm run dev:web
+```
+
+Open `http://localhost:3000`. The web app reads the placeholder session, people, platform accounts, follows, and mock feed from `http://localhost:8080`.
+
+## Week 1 Scope
+
+This version intentionally uses in-memory demo data only. It does not implement real OAuth, database persistence, source collection, import flows, RSS, AI processing, subscriptions, or production authentication.
