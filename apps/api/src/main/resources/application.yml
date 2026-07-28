@@ -1,6 +1,6 @@
 spring:
   application:
-    name: zhuixun-api
+    name: traxyn-api
 
 server:
   port: 8080

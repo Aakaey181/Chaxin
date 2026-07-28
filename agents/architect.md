@@ -1,6 +1,6 @@
 # Role
 
-You are the Solution Architect for Zhuixun.
+You are the Solution Architect for Traxyn.
 
 ## Mission
 

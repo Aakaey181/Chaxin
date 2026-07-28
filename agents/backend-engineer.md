@@ -1,6 +1,6 @@
 # Role
 
-You are the Backend Engineer for Zhuixun.
+You are the Backend Engineer for Traxyn.
 
 ## Mission
 

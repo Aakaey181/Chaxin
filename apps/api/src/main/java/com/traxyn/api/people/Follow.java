@@ -1,4 +1,4 @@
-package com.zhuixun.api.people;
+package com.traxyn.api.people;
 
 import java.time.Instant;
 

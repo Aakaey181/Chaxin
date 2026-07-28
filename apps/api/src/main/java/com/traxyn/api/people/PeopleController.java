@@ -1,6 +1,6 @@
-package com.zhuixun.api.people;
+package com.traxyn.api.people;
 
-import com.zhuixun.api.demo.DemoDataStore;
+import com.traxyn.api.demo.DemoDataStore;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.zhuixun.api.feed;
+package com.traxyn.api.feed;
 
 import java.time.Instant;
 import java.util.List;

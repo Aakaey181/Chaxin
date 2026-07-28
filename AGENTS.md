@@ -1,8 +1,8 @@
-# Zhuixun Codex Operating Guide
+# Traxyn Codex Operating Guide
 
 ## Project Mission
 
-Zhuixun V0.1 validates the experience of following people instead of platforms. The product aggregates user-authorized sources into a clean timeline, keeps original content traceable, and adds Chinese translation, one-line summaries, topic tags, and daily briefings.
+Traxyn V0.1 validates the experience of following people instead of platforms. The product aggregates user-authorized sources into a clean timeline, keeps original content traceable, and adds Chinese translation, one-line summaries, topic tags, and daily briefings.
 
 ## Fixed V0.1 Stack
 
@@ -29,7 +29,7 @@ Zhuixun V0.1 validates the experience of following people instead of platforms. 
 ## Repository Layout
 
 ```text
-zhuixun/
+traxyn/
 ├── AGENTS.md
 ├── apps/
 │   ├── web/

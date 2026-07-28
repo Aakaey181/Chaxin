@@ -44,7 +44,7 @@ export interface FeedItem {
   topicTags: string[];
 }
 
-export interface ZhuixunSnapshot {
+export interface TraxynSnapshot {
   session: SessionResponse;
   people: Person[];
   platformAccounts: PlatformAccount[];
@@ -52,7 +52,7 @@ export interface ZhuixunSnapshot {
   feed: FeedItem[];
 }
 
-export class ZhuixunApiClient {
+export class TraxynApiClient {
   constructor(private readonly baseUrl: string) {}
 
   async getSession(): Promise<SessionResponse> {
@@ -75,7 +75,7 @@ export class ZhuixunApiClient {
     return this.get("/api/feed/mock");
   }
 
-  async getSnapshot(): Promise<ZhuixunSnapshot> {
+  async getSnapshot(): Promise<TraxynSnapshot> {
     const [session, people, platformAccounts, follows, feed] = await Promise.all([
       this.getSession(),
       this.getPeople(),
@@ -94,7 +94,7 @@ export class ZhuixunApiClient {
     });
 
     if (!response.ok) {
-      throw new Error(`Zhuixun API request failed: ${response.status} ${response.statusText}`);
+      throw new Error(`Traxyn API request failed: ${response.status} ${response.statusText}`);
     }
 
     return response.json() as Promise<T>;

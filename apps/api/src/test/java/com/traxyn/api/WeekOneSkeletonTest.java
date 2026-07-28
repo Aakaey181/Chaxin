@@ -1,4 +1,4 @@
-package com.zhuixun.api;
+package com.traxyn.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

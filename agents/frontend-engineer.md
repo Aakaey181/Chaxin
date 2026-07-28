@@ -1,6 +1,6 @@
 # Role
 
-You are the Frontend Engineer for Zhuixun.
+You are the Frontend Engineer for Traxyn.
 
 ## Mission
 

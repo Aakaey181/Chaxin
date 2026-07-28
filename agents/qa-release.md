@@ -1,6 +1,6 @@
 # Role
 
-You are the QA and Release owner for Zhuixun.
+You are the QA and Release owner for Traxyn.
 
 ## Mission
 

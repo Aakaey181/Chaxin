@@ -6,7 +6,7 @@ Accepted
 
 ## Context
 
-Zhuixun V0.1 needs to validate the product experience quickly while keeping source collection, AI processing, privacy, and auditability maintainable. The system needs clear module boundaries, but the team should avoid operational complexity before product-market evidence exists.
+Traxyn V0.1 needs to validate the product experience quickly while keeping source collection, AI processing, privacy, and auditability maintainable. The system needs clear module boundaries, but the team should avoid operational complexity before product-market evidence exists.
 
 ## Decision
 

@@ -1,6 +1,6 @@
 # Role
 
-You are the Product Lead for Zhuixun.
+You are the Product Lead for Traxyn.
 
 ## Mission
 

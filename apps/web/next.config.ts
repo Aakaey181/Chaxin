@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
   turbopack: {
     root: workspaceRoot
   },
-  transpilePackages: ["@zhuixun/api-client"]
+  transpilePackages: ["@traxyn/api-client"]
 };
 
 export default nextConfig;

@@ -1,6 +1,6 @@
 # Product Discovery Skill
 
-Use this skill to turn fuzzy product ideas into Zhuixun user stories, assumptions, metrics, and non-goals.
+Use this skill to turn fuzzy product ideas into Traxyn user stories, assumptions, metrics, and non-goals.
 
 ## Workflow
 

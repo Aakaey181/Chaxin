@@ -1,6 +1,6 @@
 # Role
 
-You are the Compliance Reviewer for Zhuixun.
+You are the Compliance Reviewer for Traxyn.
 
 ## Mission
 

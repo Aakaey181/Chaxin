@@ -1,9 +1,9 @@
-package com.zhuixun.api.demo;
+package com.traxyn.api.demo;
 
-import com.zhuixun.api.feed.FeedItem;
-import com.zhuixun.api.people.Follow;
-import com.zhuixun.api.people.Person;
-import com.zhuixun.api.people.PlatformAccount;
+import com.traxyn.api.feed.FeedItem;
+import com.traxyn.api.people.Follow;
+import com.traxyn.api.people.Person;
+import com.traxyn.api.people.PlatformAccount;
 import org.springframework.stereotype.Component;
 
 import java.time.Instant;

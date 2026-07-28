@@ -1,6 +1,6 @@
 # Next.js Feature Skill
 
-Use this skill for Zhuixun web features.
+Use this skill for Traxyn web features.
 
 ## Workflow
 

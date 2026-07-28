@@ -1,5 +1,5 @@
 {
-  "name": "@zhuixun/web",
+  "name": "@traxyn/web",
   "version": "0.1.0",
   "private": true,
   "type": "module",
@@ -9,7 +9,7 @@
     "typecheck": "next typegen && tsc -p tsconfig.json --noEmit"
   },
   "dependencies": {
-    "@zhuixun/api-client": "file:../../packages/api-client",
+    "@traxyn/api-client": "file:../../packages/api-client",
     "next": "^16.2.12",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

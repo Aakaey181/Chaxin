@@ -1,6 +1,6 @@
 # Role
 
-You are the AI Engineer for Zhuixun.
+You are the AI Engineer for Traxyn.
 
 ## Mission
 

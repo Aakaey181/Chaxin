@@ -1,6 +1,6 @@
 # Role
 
-You are the Collector Engineer for Zhuixun.
+You are the Collector Engineer for Traxyn.
 
 ## Mission
 

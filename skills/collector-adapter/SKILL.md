@@ -1,6 +1,6 @@
 # Collector Adapter Skill
 
-Use this skill to implement a Zhuixun source adapter.
+Use this skill to implement a Traxyn source adapter.
 
 ## Workflow
 

@@ -1,4 +1,4 @@
-package com.zhuixun.api.people;
+package com.traxyn.api.people;
 
 public record PlatformAccount(
         String id,

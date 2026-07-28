@@ -1,4 +1,4 @@
-package com.zhuixun.api.auth;
+package com.traxyn.api.auth;
 
 import java.util.List;
 

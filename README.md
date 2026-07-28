@@ -1,6 +1,6 @@
-# Zhuixun
+# Traxyn
 
-Zhuixun V0.1 is a beta product for following people instead of platforms. The foundation in this repository sets up the Codex operating model, role files, reusable skills, product documents, architecture decisions, and initial project skeleton.
+Traxyn V0.1 is a beta product for following people instead of platforms. The foundation in this repository sets up the Codex operating model, role files, reusable skills, product documents, architecture decisions, and initial project skeleton.
 
 ## Start With Codex
 
@@ -28,7 +28,7 @@ Install Java 21, Maven, Node.js, and npm. Then run:
 ```bash
 npm install
 npm run test:api
-npm run build --workspace @zhuixun/api-client
+npm run build --workspace @traxyn/api-client
 npm run dev:api
 ```
 

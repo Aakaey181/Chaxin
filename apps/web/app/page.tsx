@@ -1,19 +1,19 @@
-import { ZhuixunApiClient } from "@zhuixun/api-client";
-import type { ZhuixunSnapshot } from "@zhuixun/api-client";
+import { TraxynApiClient } from "@traxyn/api-client";
+import type { TraxynSnapshot } from "@traxyn/api-client";
 
 export const dynamic = "force-dynamic";
 
-const apiBaseUrl = process.env.ZHUIXUN_API_URL ?? "http://localhost:8080";
+const apiBaseUrl = process.env.TRAXYN_API_URL ?? "http://localhost:8080";
 
 export default async function HomePage() {
-  const client = new ZhuixunApiClient(apiBaseUrl);
+  const client = new TraxynApiClient(apiBaseUrl);
   const { snapshot, error } = await getSnapshot(client);
 
   if (error || !snapshot) {
     return (
       <main className="shell">
         <header className="topbar">
-          <div className="brand">Zhuixun</div>
+          <div className="brand">Traxyn</div>
           <div className="user-pill">Offline demo</div>
         </header>
         <div className="layout">
@@ -36,7 +36,7 @@ export default async function HomePage() {
   return (
     <main className="shell">
       <header className="topbar">
-        <div className="brand">Zhuixun</div>
+        <div className="brand">Traxyn</div>
         <div className="user-pill">{snapshot.session.user.displayName}</div>
       </header>
 
@@ -107,8 +107,8 @@ export default async function HomePage() {
 }
 
 async function getSnapshot(
-  client: ZhuixunApiClient
-): Promise<{ snapshot: ZhuixunSnapshot; error: null } | { snapshot: null; error: string }> {
+  client: TraxynApiClient
+): Promise<{ snapshot: TraxynSnapshot; error: null } | { snapshot: null; error: string }> {
   try {
     return { snapshot: await client.getSnapshot(), error: null };
   } catch {
